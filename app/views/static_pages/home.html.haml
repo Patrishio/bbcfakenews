@@ -1,2 +1,12 @@
-%h1 BBC Fake news
-=@items
+%h1.center BBC Fake news
+%table.table
+  %tbody
+    -@items.each do |item|
+      %tr
+        %td.item_title=link_to item.title, item.link
+        %td.item_desc=item.description
+        %td.item_pub_date=item.pubDate.strftime("%Y-%m-%d %H:%M:%S") 
+        %td          
+          =link_to "#", class: "btn btn-sm btn-primary vote_button" do
+            %span.glyphicon.glyphicon-thumbs-up
+          
