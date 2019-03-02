@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
   get  'static_pages/vote_action'
+  get  'static_pages/update_xml'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

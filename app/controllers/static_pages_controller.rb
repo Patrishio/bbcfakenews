@@ -12,10 +12,16 @@ class StaticPagesController < ApplicationController
 
   # -----------------------------
   def vote_action
-    # params[:title]    
-    # params[:desc]      
-    # params[:link]    
-    # params[:pubDate]    
+    # self.update_xml(
+    #   params[:title],    
+    #   params[:desc],      
+    #   params[:link],    
+    #   params[:pubDate]  
+    # )  
+  end
 
+  # -----------------------------
+  def update_xml(title, desc, link, pubDate)
+    
   end
 end

@@ -34,6 +34,7 @@ gem "haml-rails", "~> 1.0"
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'builder'
+gem 'carrierwave'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
