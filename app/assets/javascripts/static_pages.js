@@ -19,7 +19,7 @@ $(function(){
         pubDate: pubDate
        }, 
       error: function() {
-        alert("Ajax error!")
+        alert("Server busy!")
       }
     });//end ajax    
 

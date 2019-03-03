@@ -1,6 +1,12 @@
 %h1.center BBC Fake news
 %table.table
-  %tbody
+  %thead
+    %tr
+      %th Title
+      %th Description
+      %th.size4 Pub Date
+      %th Vote       
+  %tbody    
     -@items.each do |item|
       %tr
         %td.item_title=link_to item.title, item.link

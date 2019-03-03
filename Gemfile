@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.5'
 gem "haml-rails", "~> 1.0"
 gem 'bootstrap-sass'
 gem 'jquery-rails'
-gem 'builder'
+gem 'nokogiri'
 gem 'carrierwave'
 
 group :development, :test do
